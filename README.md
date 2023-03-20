@@ -4,9 +4,9 @@
 
 Link here: <https://github.com/Xposed-Modules-Repo/me.jsonet.jshook>
 
-## JsHook-Open-Source
+## JsHookApp
 
-Link here: <https://github.com/JsHook-Open-Source>
+Link here: <https://github.com/JsHookApp>
 
 ## JsHook-Script-Repo
 
