@@ -1,1 +1,11 @@
-.
+1.修复rhino/frida因异步导致hook异常问题
+2.防护模块增强(已通过EnvCheck检测)
+3.修复api->http post请求异常
+4.新增api->convert
+5.其他问题修复
+---
+1. Fix the abnormal hook problem caused by rhino/frida due to asynchrony
+2. Enhanced protection module (passed EnvCheck detection)
+3. Fix api->http post request exception
+4. Add api->convert
+5. Other bug fixes
