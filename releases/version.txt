@@ -1,11 +1,15 @@
-1.修复rhino/frida因异步导致hook异常问题
-2.防护模块增强(已通过EnvCheck检测)
-3.修复api->http post请求异常
-4.新增api->convert
-5.其他问题修复
+1.修复x86面具模块激活异常
+2.防护模块优化
+3.更详细的脚本异常日志
+4.api->json更新,可以gson相互转换
+5.仓库新增订阅管理,可加入多个订阅
+6.支持导入SimpleHook配置
+7.其他问题修复
 ---
-1. Fix the abnormal hook problem caused by rhino/frida due to asynchrony
-2. Enhanced protection module (passed EnvCheck detection)
-3. Fix api->http post request exception
-4. Add api->convert
-5. Other bug fixes
+1. Fix x86 mask module activation exception
+2. Protection module optimization
+3. More detailed script exception log
+4. api->json update, you can convert gson to each other
+5. New subscription management in the warehouse, multiple subscriptions can be added
+6. Support importing SimpleHook configuration
+7. Other bug fixes
