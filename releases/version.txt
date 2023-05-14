@@ -1,15 +1,13 @@
-1.修复x86面具模块激活异常
-2.防护模块优化
-3.更详细的脚本异常日志
-4.api->json更新,可以gson相互转换
-5.仓库新增订阅管理,可加入多个订阅
-6.支持导入SimpleHook配置
-7.其他问题修复
+1.api->modmenu,支持创建多个悬浮窗,webview组件增强
+2.新增api->keys,可以进行模拟点击/滑动
+3.新增api->view,常用view操作
+4.api->device更新
+5.脚本编辑器调整
+6.其他问题修复
 ---
-1. Fix x86 mask module activation exception
-2. Protection module optimization
-3. More detailed script exception log
-4. api->json update, you can convert gson to each other
-5. New subscription management in the warehouse, multiple subscriptions can be added
-6. Support importing SimpleHook configuration
-7. Other bug fixes
+1. api->modmenu, support to create multiple floating windows, webview component enhancement
+2. Add api->keys, which can simulate click/swipe
+3. Add api->view, common view operation
+4. api->device update
+5. Script editor adjustment
+6. Other bug fixes
