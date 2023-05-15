@@ -1,13 +1,3 @@
-1.api->modmenu,支持创建多个悬浮窗,webview组件增强
-2.新增api->keys,可以进行模拟点击/滑动
-3.新增api->view,常用view操作
-4.api->device更新
-5.脚本编辑器调整
-6.其他问题修复
+问题修复以及细节优化
 ---
-1. api->modmenu, support to create multiple floating windows, webview component enhancement
-2. Add api->keys, which can simulate click/swipe
-3. Add api->view, common view operation
-4. api->device update
-5. Script editor adjustment
-6. Other bug fixes
+Bug fixes and detail optimization
