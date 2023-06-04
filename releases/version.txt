@@ -1,3 +1,13 @@
-问题修复以及细节优化
+1. 新增api->colors
+2. 新增api->canvas可以进行图形绘制
+3. vscode插件新增(清空/查看)日志
+4. 支持DeepLink添加仓库订阅
+5. 脚本仓库支持更多的配置
+6. 问题修复以及细节优化
 ---
-Bug fixes and detail optimization
+1. Add api->colors
+2. Add api->canvas for graphics drawing
+3. The vscode plugin adds (clear/view) logs
+4. Support DeepLink to add warehouse subscription
+5. The script repository supports more configurations
+6. Bug fixes and detail optimization
