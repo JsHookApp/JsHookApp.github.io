@@ -14,7 +14,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '在 GPL3 许可证下发布。',
+      message: 'Released under the GPL3 license.',
       copyright: 'Copyright © 2022-现在 JsHook 开发者'
     }
   }
