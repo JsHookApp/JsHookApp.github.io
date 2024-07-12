@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "JsHook",
-  description: "Android上用Js实现Hook",
+  description: "Implementing Hook with Js on Android",
   appearance: 'force-dark',
   themeConfig: {
     nav: [
