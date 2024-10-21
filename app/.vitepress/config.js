@@ -1,6 +1,4 @@
-import { defineConfig } from 'vitepress'
-
-export default defineConfig({
+module.exports = {
   title: "JsHook",
   description: "Android上用Js实现Hook",
   appearance: 'force-dark',
@@ -18,4 +16,4 @@ export default defineConfig({
       copyright: 'Copyright © 2022-现在 JsHook 开发者'
     }
   }
-})
+}

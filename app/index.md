@@ -15,7 +15,7 @@ hero:
       link: https://doc.jshook.org/#/README
     - theme: alt
       text: 立即下载APK
-      link: https://6471fa6e68524228bbc0c2a5fcb37301.xyz/qcloud/200033246373_10ebb236-cd2d-4eb7-9f3a-65575d4e40dd_6e192496b41743bc91d57c45a2d3b29a/f_f7ee6c558d3442a09108cb003bbc25e0/jshook-v1.2.4.apk
+      link: https://github.com/JsHookApp/Download/releases/download/files/jshook-v1.2.6.apk
     - theme: alt
       text: Google商店下载
       link: https://play.google.com/store/apps/details?id=me.jsonet.jshook
