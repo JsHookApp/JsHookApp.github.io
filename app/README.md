@@ -13,6 +13,9 @@ actions:
   - text: Google商店下载
     link: https://play.google.com/store/apps/details?id=me.jsonet.jshook
     type: secondary
+  - text: Telegram(@jshookapp)
+    link: https://t.me/jshookapp
+    type: secondary
   - text: Github
     link: https://github.com/JsHookApp
     type: secondary
