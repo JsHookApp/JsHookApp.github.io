@@ -1,101 +1,14 @@
-v1.2.7:
-android 15
-
-v1.2.6:
+v1.3.0:
+不再依赖zygisk/riru，直接使用root权限激活，支持反激活
+框架管理frida(server/inject/gadget)自动同步最新版
+框架管理新增patch删除特征
 问题修复以及细节优化
+
+注意查看frida17.x的一些变化，详细查看https://frida.re/news/2025/05/17/frida-17-0-0-released/
 ---
+No longer dependent on zygisk/riru, directly activate with root permissions, support deactivation
+Framework management frida (server/inject/gadget) automatically synchronizes the latest version
+Framework management adds patch function
 Bug fixes and detail optimization
 
-v1.2.5:
-与旧版mod菜单共存，由用户在设置中切换
-frida-gadget可修改全局配置文件
-frida-mod和frida-inject可关闭扩展api
-新增日志行数设置
-脚本存储位置可修改
-修正mod菜单id自动生成规则
-修复imgui实例销毁失败
-修复hook子进程多实例异常
-恢复canvas接口
-修复软重启导致的假激活
----
-Coexist with the old version of mod menu, switched by the user in settings
-frida-gadget can modify the global configuration file
-frida-mod and frida-inject can close the extension API
-Added log line number setting
-Script storage location can be modified
-Fixed the rules for automatic generation of mod menu id
-Fixed imgui instance destruction failure
-Fixed hook subprocess multi-instance exception
-Restore canvas interface
-Fixed false activation caused by soft restart
-
-v1.2.4:
-删除GoogleFirebase
-支持分身应用注入
-支持执行多个加密脚本，未加密和加密脚本可混合使用(fridamod>=1.0.8)
-问题修复以及细节优化
----
-Delete GoogleFirebase
-Supports clone application injection
-Supports execution of multiple encrypted scripts, unencrypted and encrypted scripts can be mixed (fridamod>=1.0.8)
-Bug fixes and detail optimization
-
-v1.2.3:
-imgui进程分离
-新增api->memory(内存读写)
-新增ptrace注入
-问题修复以及细节优化
----
-imgui process separation
-New api->memory (memory read and write)
-New ptrace injection
-Bug fixes and detail optimization
-
-v1.2.2:
-修复注入问题(fridamod>=1.0.6)
-修复imgui图片更新问题
-imgui控件支持自定义id
-恢复启动配置
-恢复frida-gadget
-恢复hook子进程
-问题修复以及细节优化
----
-Fix injection problem (fridamod>=1.0.6)
-Fix imgui image update problem
-imgui control supports custom id
-Restore startup configuration
-Restore frida-gadget
-Restore hook subprocess
-Bug fixes and detail optimization
-
-v1.2.1:
-问题修复以及细节优化
----
-Bug fixes and detail optimization
-
-v1.2.0:
-底层框架调整，不再属于xp模块，需要root环境模块单独激活
-mod菜单与绘制调整为imgui方案，不需要悬浮窗权限
-imgui支持opengl/vulkan两种模式，支持用户输入，支持加载url资源
-框架管理调整，删除了rhino
-新增kernel内核模式接口，支持QX内核驱动(10.x)
-脚本加密调整(v3)，不支持旧版加密(v1/v2)
-修复frida日志输出问题
-fridamod调整，不支持旧版jshook
-新增media播放音乐api
-问题修复以及细节优化
-
-跨大版本升级请先备份脚本以及订阅数据
----
-The underlying framework has been adjusted. It is no longer an XP module and requires the root environment module to be activated separately.
-The mod menu and drawing have been adjusted to the imgui solution, and floating window permissions are not required.
-imgui supports opengl/vulkan modes, supports user input, and supports loading URL resources.
-Framework management has been adjusted, and rhino has been deleted.
-A new kernel mode interface has been added to support QX kernel drivers (10.x).
-Script encryption has been adjusted (v3), and old version encryption (v1/v2) is not supported.
-The frida log output problem has been fixed.
-The fridamod has been adjusted, and the old version of jshook is not supported.
-A new media music playback api has been added.
-Problem fixes and detail optimizations
-
-Please back up scripts and subscription data before upgrading to a new version
+Pay attention to some changes in frida17.x, see https://frida.re/news/2025/05/17/frida-17-0-0-released/ for details
