@@ -72,14 +72,39 @@
           应用截图
         </h2>
         <div class="screenshots-grid">
-          <div
-            v-for="(img, i) in screenshotList"
-            :key="i"
-            class="screenshot-item"
-            :style="{ animationDelay: `${i * 0.08}s` }"
-          >
+          <!-- <div class="screenshot-item" style="animation-delay: 0s">
             <div class="screenshot-frame">
-              <img :src="img" :alt="`截图 ${i + 1}`" loading="lazy" />
+              <img src="../assets/img/img_100.png" alt="截图 1" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div> -->
+          <div class="screenshot-item" style="animation-delay: 0.08s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_101.png" alt="截图 2" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.16s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_102.png" alt="截图 3" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.24s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_103.png" alt="截图 4" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.32s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_104.png" alt="截图 5" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.4s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_105.png" alt="截图 6" loading="lazy" />
               <div class="frame-glow"></div>
             </div>
           </div>
@@ -103,16 +128,6 @@ import { usePageFrontmatter } from 'vuepress/client'
 import VPNavbar from '@vuepress/theme-default/lib/client/components/VPNavbar.vue'
 
 const frontmatter = usePageFrontmatter()
-
-// 截图放在 app/assets/img/ 下，由 Vite 打包；或放在 .vuepress/public/assets/img/ 下则用 /assets/img/xxx.png
-const screenshotList = [
-  // new URL('../assets/img/img_100.png', import.meta.url).href,
-  new URL('../assets/img/img_101.png', import.meta.url).href,
-  new URL('../assets/img/img_102.png', import.meta.url).href,
-  new URL('../assets/img/img_103.png', import.meta.url).href,
-  new URL('../assets/img/img_104.png', import.meta.url).href,
-  new URL('../assets/img/img_105.png', import.meta.url).href,
-]
 
 if (typeof window !== 'undefined') {
   const lang = navigator.language

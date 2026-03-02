@@ -72,14 +72,39 @@
           App Screenshots
         </h2>
         <div class="screenshots-grid">
-          <div
-            v-for="(img, i) in screenshotList"
-            :key="i"
-            class="screenshot-item"
-            :style="{ animationDelay: `${i * 0.08}s` }"
-          >
+          <!-- <div class="screenshot-item" style="animation-delay: 0s">
             <div class="screenshot-frame">
-              <img :src="img" :alt="`Screenshot ${i + 1}`" loading="lazy" />
+              <img src="../assets/img/img_100.png" alt="Screenshot 1" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div> -->
+          <div class="screenshot-item" style="animation-delay: 0.08s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_101.png" alt="Screenshot 2" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.16s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_102.png" alt="Screenshot 3" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.24s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_103.png" alt="Screenshot 4" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.32s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_104.png" alt="Screenshot 5" loading="lazy" />
+              <div class="frame-glow"></div>
+            </div>
+          </div>
+          <div class="screenshot-item" style="animation-delay: 0.4s">
+            <div class="screenshot-frame">
+              <img src="../assets/img/img_105.png" alt="Screenshot 6" loading="lazy" />
               <div class="frame-glow"></div>
             </div>
           </div>
@@ -103,16 +128,6 @@ import { usePageFrontmatter } from 'vuepress/client'
 import VPNavbar from '@vuepress/theme-default/lib/client/components/VPNavbar.vue'
 
 const frontmatter = usePageFrontmatter()
-
-// Screenshots in app/assets/img/ (bundled by Vite) or in .vuepress/public/assets/img/
-const screenshotList = [
-  // new URL('../assets/img/img_100.png', import.meta.url).href,
-  new URL('../assets/img/img_101.png', import.meta.url).href,
-  new URL('../assets/img/img_102.png', import.meta.url).href,
-  new URL('../assets/img/img_103.png', import.meta.url).href,
-  new URL('../assets/img/img_104.png', import.meta.url).href,
-  new URL('../assets/img/img_105.png', import.meta.url).href,
-]
 </script>
 
 <style scoped>
