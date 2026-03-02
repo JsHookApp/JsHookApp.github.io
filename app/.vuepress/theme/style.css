@@ -1,14 +1,50 @@
+/* 全局深色科技风 */
+html,
+body {
+  background: #0a0e17 !important;
+}
+
+/* 导航栏与首页深色一致 */
+.vp-navbar {
+  background: rgba(10, 14, 23, 0.85) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(71, 85, 105, 0.3) !important;
+}
+
+.vp-navbar .vp-site-name {
+  color: #f1f5f9 !important;
+  font-weight: 700;
+}
+
+.vp-navbar a {
+  color: #94a3b8 !important;
+}
+
+.vp-navbar a:hover {
+  color: #06b6d4 !important;
+}
+
+/* 截图区域内的图片允许点击（如链接等） */
+.screenshot-frame img {
+  pointer-events: auto;
+}
+
 img {
   pointer-events: none;
 }
 
+/* 滚动条 - 深色科技风 */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background-color: transparent;
+  background-color: #0f172a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #9C9C9C;
+  background: linear-gradient(180deg, #06b6d4, #6366f1);
   border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #22d3ee, #818cf8);
 }

@@ -8,7 +8,7 @@ actions:
     link: https://doc.jshook.org/#/README
     type: primary
   - text: Download APK now
-    link: https://github.com/JsHookApp/Download/releases/download/files/jshook-v1.2.7.apk
+    link: https://github.com/JsHookApp/Download/releases/download/files/jshook-v1.3.0.apk
     type: secondary
   - text: Google Store Download
     link: https://play.google.com/store/apps/details?id=me.jsonet.jshook
