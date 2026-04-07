@@ -1,14 +1,26 @@
-v1.3.0:
-不再依赖zygisk/riru，直接使用root权限激活，支持反激活
-框架管理frida(server/inject/gadget)自动同步最新版
-框架管理新增patch删除特征
-问题修复以及细节优化
+v1.3.1:
+- Android 16 compatibility
+- Fixed a crash caused by native JSON parsing
+- Communication link testing was adjusted to asynchronous
+- Added an overlay framework, eliminating the need for (floating window permissions/rendering modules or client-side auxiliary processes).
+- Integrated mcp_skills (tools->50+), allowing you to use AI to complete all hook tasks. AI can monitor device status and analyze applications in real time. Skills will be adjusted as needed before the official release.
+- Added a dedicated kernel driver (not supported on some devices), only applicable to arm64 architecture kernel drivers, without any obfuscation/hiding.
+- Fridamod updated with patches to adapt to the mcp environment.
+- Kernel mode optimization.
+- Activation optimization
+- Overlay framework compatibility optimization
+- Fix overlay modmenu rendering
+- Fix nativelib import anomaly
+- Skill enhancements
+- Injector enhancements
+- Frida integration (DexKit + r2frida + frida-il2cpp-bridge)
+- Bug fixes and optimizations
+- Bug fixes and optimizations.
 
-注意查看frida17.x的一些变化，详细查看https://frida.re/news/2025/05/17/frida-17-0-0-released/
----
-No longer dependent on zygisk/riru, directly activate with root permissions, support deactivation
-Framework management frida (server/inject/gadget) automatically synchronizes the latest version
-Framework management adds patch function
-Bug fixes and detail optimization
+Please update Fridamod to the latest version(1101) to adapt to the mcp service.
 
-Pay attention to some changes in frida17.x, see https://frida.re/news/2025/05/17/frida-17-0-0-released/ for details
+From this version onwards, you no longer need to research and write scripts yourself. Simply configure VS Code, submit your requirements to the AI, and all you need to do is accept the changes.
+
+The documentation has been updated; you can view how to use mcp here:
+
+https://doc.jshook.org
